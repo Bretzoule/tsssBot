@@ -1,0 +1,23 @@
+{
+  "name": "tsssbot",
+  "version": "1.0.0",
+  "description": "Discord bot that automatically puts a \"snake\" emoji reaction on some messages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bretzoule/tsssBot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bretzoule/tsssBot/issues"
+  },
+  "homepage": "https://github.com/Bretzoule/tsssBot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "dotenv": "^16.0.1"
+  }
+}

@@ -46,10 +46,10 @@ function parseCommand(message) {
     case "list":
       list(channel, desagreable);
       break;
-    case "addToList":
+    case "add":
       if (message.author.id != djulo) addToList(desagreable, args[0]);
       break;
-    case "removeFromList":
+    case "remove":
       if (message.author.id != djulo) desagreable = removeFromList(desagreable, args[0]);
       break;
     default:

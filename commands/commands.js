@@ -42,11 +42,11 @@ function help(channel) {
 }
 
 function addToList(desagreable, word) {
-  if (!desagreable.includes(word)) desagreable.push(desagreable);
+  if (!desagreable.includes(word)) desagreable.push(word);
 }
 
 function removeFromList(desagreable, word) {
-  return desagreable.filter((item) => item !== word);
+  return desagreable.filter((item) => item != word);
 }
 
 function list(channel, desagreable) {
